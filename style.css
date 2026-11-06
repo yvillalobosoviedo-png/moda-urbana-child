@@ -84,3 +84,7 @@ Text Domain: moda-urbana-child
   color: var(--color-error);
   border-color: var(--color-error);
 }
+
+.footer-widgets a:hover {
+  color: var(--color-acento);
+}
