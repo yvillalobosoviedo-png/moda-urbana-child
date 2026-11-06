@@ -1,0 +1,86 @@
+/*
+Theme Name: Moda Urbana Child
+Theme URI: https://modaurbana.example/
+Description: Tema hijo de Moda Urbana. Permite extender estilos y funciones (plugins, widgets, modal, antispam) sin modificar el tema padre.
+Author: Yendry Tatiana Villalobos Oviedo
+Template: moda-urbana
+Version: 1.0.0
+Text Domain: moda-urbana-child
+*/
+
+/* Los estilos propios del tema hijo se escriben debajo de esta línea.
+   Cargan después de los del padre, por lo que pueden sobrescribirlos. */
+
+/* Área de widgets del footer */
+.footer-widgets {
+  display: grid;
+  gap: var(--espaciado-md);
+  margin-block-end: var(--espaciado-md);
+  text-align: left;
+}
+
+.footer-widgets .widget-titulo {
+  font-family: var(--fuente-titulo);
+  font-size: var(--fs-md);
+  color: var(--color-acento);
+  margin-block-end: var(--espaciado-sm);
+}
+
+.footer-widgets ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-widgets a {
+  color: var(--color-fondo);
+}
+
+@media (min-width: 48rem) {
+  .footer-widgets {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+}
+
+/* Formulario de Contact Form 7 (reutiliza .formulario del padre) */
+.formulario .wpcf7-form-control-wrap {
+  display: block;
+}
+
+.formulario .hidden-fields-container {
+  display: none;
+}
+
+.formulario .wpcf7-not-valid {
+  border-color: var(--color-error);
+}
+
+.formulario .wpcf7-not-valid-tip {
+  margin-top: 0.4rem;
+  color: var(--color-error);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+.formulario .wpcf7-not-valid-tip::before {
+  content: "⚠ ";
+}
+
+.formulario .wpcf7-response-output {
+  margin: 0;
+  padding: var(--espaciado-md);
+  border: 3px solid var(--color-fondo);
+  font-weight: 700;
+}
+
+.formulario[data-status="sent"] .wpcf7-response-output {
+  background-color: var(--color-acento-2);
+  color: var(--color-texto);
+  border-color: var(--color-texto);
+}
+
+.formulario[data-status="invalid"] .wpcf7-response-output,
+.formulario[data-status="failed"] .wpcf7-response-output,
+.formulario[data-status="spam"] .wpcf7-response-output {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}

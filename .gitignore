@@ -1,0 +1,37 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.log
+
+# Configuración local del editor
+.vscode/
+.idea/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos de configuración local
+wp-config.php
+*.pem
+*.key
+
+# Copias de seguridad
+*.zip
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+
+# Archivos de caché
+.cache/
+cache/
