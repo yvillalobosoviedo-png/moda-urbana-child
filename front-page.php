@@ -12,15 +12,14 @@
     </div>
     <figure class="hero-figure">
       <picture>
-        <source media="(min-width: 896px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-desk.webp" />
-        <source media="(min-width: 640px)" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-tablet.webp" />
+        <source media="(min-width: 896px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hero-desk.webp" />
+        <source media="(min-width: 640px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hero-tablet.webp" />
         <img
-          src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-mobile.webp"
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hero-mobile.webp"
           width="1024"
           height="1536"
           fetchpriority="high"
-          alt="Joven sentado frente a un muro con grafiti, con hoodie negro, pantalón cargo y sneakers, junto a un skate"
-        />
+          alt="Joven con hoodie negro y pantalón cargo, sentado frente a un muro con grafiti junto a un skate" />
       </picture>
       <figcaption class="sello">Nueva colección 2026</figcaption>
     </figure>
@@ -29,12 +28,10 @@
   <div class="cinta" aria-hidden="true">
     <div class="cinta-pista">
       <p class="cinta-grupo">
-        <span>Hoodies</span><span>Camisetas oversize</span
-        ><span>Gorras</span><span>Joggers</span><span>Sneakers</span>
+        <span>Hoodies</span><span>Camisetas oversize</span><span>Gorras</span><span>Joggers</span><span>Sneakers</span>
       </p>
       <p class="cinta-grupo">
-        <span>Hoodies</span><span>Camisetas oversize</span
-        ><span>Gorras</span><span>Joggers</span><span>Sneakers</span>
+        <span>Hoodies</span><span>Camisetas oversize</span><span>Gorras</span><span>Joggers</span><span>Sneakers</span>
       </p>
     </div>
   </div>
@@ -81,12 +78,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hoodies.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hoodies.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Hoodies</h3>
           <p>Estampados propios, corte oversize.</p>
           <button
@@ -94,8 +90,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-hoodies"
-            aria-label="Ver productos de hoodies"
-          >
+            aria-label="Ver productos de hoodies">
             Ver productos
           </button>
         </article>
@@ -103,12 +98,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/camisetas.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/camisetas.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Camisetas</h3>
           <p>Gráficas inspiradas en arte callejero.</p>
           <button
@@ -116,8 +110,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-camisetas"
-            aria-label="Ver productos de camisetas"
-          >
+            aria-label="Ver productos de camisetas">
             Ver productos
           </button>
         </article>
@@ -125,12 +118,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/gorras.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/gorras.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Gorras</h3>
           <p>Snapback y trucker, edición limitada.</p>
           <button
@@ -138,8 +130,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-gorras"
-            aria-label="Ver productos de gorras"
-          >
+            aria-label="Ver productos de gorras">
             Ver productos
           </button>
         </article>
@@ -147,12 +138,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/joggers.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/joggers.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Joggers</h3>
           <p>Cortes cargo y holgados para moverte sin límites.</p>
           <button
@@ -160,8 +150,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-joggers"
-            aria-label="Ver productos de joggers"
-          >
+            aria-label="Ver productos de joggers">
             Ver productos
           </button>
         </article>
@@ -169,12 +158,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/sneakers.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/sneakers.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Sneakers</h3>
           <p>Colaboraciones exclusivas de temporada.</p>
           <button
@@ -182,8 +170,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-sneakers"
-            aria-label="Ver productos de sneakers"
-          >
+            aria-label="Ver productos de sneakers">
             Ver productos
           </button>
         </article>
@@ -191,12 +178,11 @@
       <li>
         <article class="tarjeta">
           <img
-            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/accesorios.webp"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/accesorios.webp"
             width="800"
             height="600"
             loading="lazy"
-            alt=""
-          />
+            alt="" />
           <h3>Accesorios</h3>
           <p>Mochilas, medias y detalles para completar tu look.</p>
           <button
@@ -204,8 +190,7 @@
             class="btn-categoria"
             aria-expanded="false"
             aria-controls="productos-accesorios"
-            aria-label="Ver productos de accesorios"
-          >
+            aria-label="Ver productos de accesorios">
             Ver productos
           </button>
         </article>
@@ -224,12 +209,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/HoodieOversizeNegro.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/HoodieOversizeNegro.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Hoodie Oversize Negro</h4>
               <p>Algodón pesado, capucha doble y estampado frontal.</p>
               <p class="producto-precio">₡22&nbsp;500</p>
@@ -238,12 +222,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/HoodieGraffiti.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/HoodieGraffiti.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Hoodie Graffiti</h4>
               <p>Estampado inspirado en los murales de la ciudad.</p>
               <p class="producto-precio">₡24&nbsp;000</p>
@@ -252,12 +235,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/HoodieZipUrbano.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/HoodieZipUrbano.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Hoodie Zip Urbano</h4>
               <p>Cierre completo y bolsillos amplios.</p>
               <p class="producto-precio">₡26&nbsp;000</p>
@@ -277,12 +259,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/CamisetaOversizeBasica.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/CamisetaOversizeBasica.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Camiseta Oversize Básica</h4>
               <p>Corte holgado en algodón suave.</p>
               <p class="producto-precio">₡11&nbsp;000</p>
@@ -291,12 +272,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/CamisetaStreetArt.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/CamisetaStreetArt.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Camiseta Street Art</h4>
               <p>Gráfica grande en la espalda.</p>
               <p class="producto-precio">₡13&nbsp;000</p>
@@ -305,12 +285,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/CamisetaSkateClub.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/CamisetaSkateClub.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Camiseta Skate Club</h4>
               <p>Edición limitada con estampado retro.</p>
               <p class="producto-precio">₡12&nbsp;000</p>
@@ -330,12 +309,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/SnapbackClasica.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/SnapbackClasica.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Snapback Clásica</h4>
               <p>Visera plana y cierre ajustable.</p>
               <p class="producto-precio">₡10&nbsp;000</p>
@@ -344,12 +322,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/TruckerMalla.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/TruckerMalla.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Trucker de Malla</h4>
               <p>Ligera y ventilada para el verano.</p>
               <p class="producto-precio">₡11&nbsp;000</p>
@@ -358,12 +335,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/GorraEdicionLimitada.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/GorraEdicionLimitada.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Gorra Edición Limitada</h4>
               <p>Bordado exclusivo de temporada.</p>
               <p class="producto-precio">₡14&nbsp;000</p>
@@ -383,12 +359,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/JoggerCargoNegro.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/JoggerCargoNegro.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Jogger Cargo Negro</h4>
               <p>Bolsillos laterales y puño ajustable.</p>
               <p class="producto-precio">₡19&nbsp;000</p>
@@ -397,12 +372,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/JoggerHolgadoGris.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/JoggerHolgadoGris.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Jogger Holgado Gris</h4>
               <p>Tela gruesa y cintura elástica.</p>
               <p class="producto-precio">₡17&nbsp;500</p>
@@ -411,12 +385,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/JoggerTelaLigera.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/JoggerTelaLigera.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Jogger Tela Ligera</h4>
               <p>Cómodo para moverte todo el día.</p>
               <p class="producto-precio">₡18&nbsp;000</p>
@@ -436,12 +409,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/SneakerUrbanoLow.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/SneakerUrbanoLow.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Sneaker Urbano Low</h4>
               <p>Suela gruesa y amortiguación suave.</p>
               <p class="producto-precio">₡39&nbsp;500</p>
@@ -450,12 +422,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/SneakerColabTemporada.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/SneakerColabTemporada.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Sneaker Colab de Temporada</h4>
               <p>Diseño exclusivo en tirada corta.</p>
               <p class="producto-precio">₡44&nbsp;500</p>
@@ -464,12 +435,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/SneakerSkate.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/SneakerSkate.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Sneaker Skate</h4>
               <p>Refuerzos en la punta y el talón.</p>
               <p class="producto-precio">₡37&nbsp;500</p>
@@ -489,12 +459,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/MochilaUrbana.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/MochilaUrbana.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Mochila Urbana</h4>
               <p>Compartimento para laptop y bolsillos laterales.</p>
               <p class="producto-precio">₡17&nbsp;000</p>
@@ -503,12 +472,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/PackMedias.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/PackMedias.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Pack de Medias</h4>
               <p>Tres pares de caña media.</p>
               <p class="producto-precio">₡6&nbsp;000</p>
@@ -517,12 +485,11 @@
           <li>
             <article class="producto">
               <img
-                src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/RinoneraStreet.webp"
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/RinoneraStreet.webp"
                 width="800"
                 height="600"
                 loading="lazy"
-                alt=""
-              />
+                alt="" />
               <h4>Riñonera Street</h4>
               <p>Cierre doble y correa ajustable.</p>
               <p class="producto-precio">₡9&nbsp;000</p>
@@ -538,9 +505,7 @@
       <div class="contacto-info">
         <h2>Contacto</h2>
         <p>Escríbenos y síguenos en nuestras redes.</p>
-        <a class="correo" href="mailto:hola@modaurbana.example"
-          >hola@modaurbana.example</a
-        >
+        <a class="correo" href="mailto:hola@modaurbana.example">hola@modaurbana.example</a>
         <ul class="redes">
           <li><a href="https://www.instagram.com/">Instagram</a></li>
           <li><a href="https://www.tiktok.com/">TikTok</a></li>
@@ -553,7 +518,7 @@
         // Formulario de Contact Form 7 (reemplaza el formulario de práctica en JavaScript).
         // title= debe coincidir con el título del formulario en Contacto > Formularios de contacto.
         // html_class= reutiliza el estilo .formulario del tema padre.
-        echo do_shortcode( '[contact-form-7 title="Formulario Moda Urbana" html_class="formulario"]' );
+        echo do_shortcode('[contact-form-7 title="Formulario Moda Urbana" html_class="formulario"]');
         ?>
       </div>
     </div>
