@@ -88,3 +88,14 @@ Text Domain: moda-urbana-child
 .footer-widgets a:hover {
   color: var(--color-acento);
 }
+
+/* Contraste del título del hero: degradado más oscuro detrás del texto */
+.hero .hero-figure::after {
+  background: linear-gradient(to top, rgb(0 0 0 / 0.85), rgb(0 0 0 / 0.55) 65%, rgb(0 0 0 / 0.3));
+}
+
+@media (min-width: 56rem) {
+  .hero .hero-figure::after {
+    background: linear-gradient(90deg, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0.55) 55%, rgb(0 0 0 / 0.15));
+  }
+}
