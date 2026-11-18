@@ -72,7 +72,7 @@
   </section>
 
   <section id="servicios" class="seccion">
-    <h2>Servicios</h2>
+    <h2>Colección</h2>
     <p>Conoce nuestras colecciones y catálogo de prendas urbanas.</p>
     <ul class="tarjetas">
       <li>
