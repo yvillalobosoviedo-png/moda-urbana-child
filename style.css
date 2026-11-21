@@ -254,3 +254,72 @@ Text Domain: moda-urbana-child
     justify-self: end;
   }
 }
+
+/* FAQ */
+.faq-lista {
+  max-width: 44rem;
+  margin-inline: auto;
+  display: grid;
+  gap: var(--espaciado-sm);
+}
+
+.faq-item {
+  border: 2px solid var(--color-texto);
+  border-radius: 0.5rem;
+  padding: var(--espaciado-sm) var(--espaciado-md);
+  background-color: var(--color-fondo);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  font-size: var(--fs-md);
+  color: var(--color-acento);
+}
+
+.faq-item[open] summary::after {
+  content: "–";
+}
+
+.faq-item p {
+  margin-block-start: var(--espaciado-sm);
+}
+
+/* Testimonios */
+.testimonios-lista {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--espaciado-md);
+}
+
+@media (min-width: 48rem) {
+  .testimonios-lista {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonio {
+  border-left: 4px solid var(--color-acento);
+  padding-inline-start: var(--espaciado-md);
+}
+
+.testimonio-texto {
+  font-style: italic;
+}
+
+.testimonio-autor {
+  margin-block-start: var(--espaciado-sm);
+  font-weight: 700;
+  color: var(--color-acento);
+}

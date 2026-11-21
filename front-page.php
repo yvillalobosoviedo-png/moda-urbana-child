@@ -500,6 +500,60 @@
     </div>
   </section>
 
+    <section id="preguntas" class="seccion seccion-superficie">
+    <h2>Preguntas frecuentes</h2>
+    <div class="faq-lista">
+      <details class="faq-item">
+        <summary>¿Hacen envíos a todo el país?</summary>
+        <p>Sí, llegamos a todo Costa Rica. El área metropolitana recibe su pedido en 1 a 3 días hábiles, y el resto del país en 3 a 5 días hábiles.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Puedo cambiar la talla si no me queda bien?</summary>
+        <p>Sí, tiene hasta 8 días naturales desde que recibe el producto para solicitar un cambio, siempre que esté sin uso y con sus etiquetas originales.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Qué métodos de pago aceptan?</summary>
+        <p>Trabajamos con tarjeta y transferencia. En el futuro sumaremos más opciones de pago en línea.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Las prendas son de edición limitada?</summary>
+        <p>Algunas piezas, como las colaboraciones de temporada, se producen en tiradas cortas. Una vez agotadas, no siempre se vuelven a fabricar.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>¿Cómo sé qué talla pedir?</summary>
+        <p>Cada producto incluye una guía de tallas en su descripción. Si tiene dudas, puede escribirnos desde la sección de contacto antes de comprar.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="opiniones" class="seccion">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <ul class="testimonios-lista">
+      <li>
+        <article class="testimonio">
+          <p class="testimonio-texto">“El hoodie llegó antes de lo esperado y la calidad de la tela superó lo que esperaba por el precio.”</p>
+          <p class="testimonio-autor">— Daniela R.</p>
+        </article>
+      </li>
+      <li>
+        <article class="testimonio">
+          <p class="testimonio-texto">“Compré la gorra edición limitada y el bordado se ve igual que en las fotos. Totalmente recomendada.”</p>
+          <p class="testimonio-autor">— Esteban M.</p>
+        </article>
+      </li>
+      <li>
+        <article class="testimonio">
+          <p class="testimonio-texto">“Las camisetas oversize son súper cómodas y el estampado no se ha despegado después de varios lavados.”</p>
+          <p class="testimonio-autor">— Valeria C.</p>
+        </article>
+      </li>
+    </ul>
+  </section>
+  
   <section id="contacto" class="seccion seccion-oscura">
     <div class="contacto-grid">
       <div class="contacto-info">
